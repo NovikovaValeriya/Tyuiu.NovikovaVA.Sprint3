@@ -12,7 +12,7 @@ namespace Tyuiu.NovikovaVA.Sprint3.Task0.V7.Test
             int k1 = 1, k2 = 20;
 
             var sum = ds.GetSumSeries(a, k1, k2);
-            double wait = -0.076;
+            double wait = 0.333;
 
 
             Assert.AreEqual(wait, sum);
