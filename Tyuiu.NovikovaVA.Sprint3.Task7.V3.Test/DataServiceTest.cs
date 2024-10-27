@@ -18,7 +18,7 @@ namespace Tyuiu.NovikovaVA.Sprint3.Task7.V3.Test
             valueWaitArray[2] = 3.71;
             valueWaitArray[3] = 3.27;
             valueWaitArray[4] = 2.93;
-            valueWaitArray[5] = 0.00;
+            valueWaitArray[5] = 2.5;
             valueWaitArray[6] = 0.71;
             valueWaitArray[7] = -47.61;
             valueWaitArray[8] = 55.15;

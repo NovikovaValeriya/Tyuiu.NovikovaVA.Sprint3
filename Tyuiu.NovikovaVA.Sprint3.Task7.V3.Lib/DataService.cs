@@ -12,18 +12,11 @@ namespace Tyuiu.NovikovaVA.Sprint3.Task7.V3.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 0)
-                {
-                    valueArray[count] = 0;
-                    count++;
-                    continue;
-                }
-                else
-                {
+               
                     y = Math.Round((3 * x - 1.5) / (Math.Sin(x) - 3 + x) + 2, 2);
                     valueArray[count] = y;
                     count++;
-                }
+            
             }
             return valueArray;
 
